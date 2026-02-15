@@ -33,7 +33,7 @@ const EssentialStore = () => {
 
   const collections = [
     { name: 'FUTURE NOIR', desc: 'Dark aesthetics meet tomorrow', img: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&q=80' },
-    { name: 'CYBER STREET', desc: 'Urban tech revolution', img: 'https://images.unsplash.com/photo-1558769132-cb1aea1c8dd5?w=800&q=80' },
+    { name: 'CYBER STREET', desc: 'Urban tech revolution', img: 'https://images.unsplash.com/photo-1445205170230-053b83016050?w=1600&q=8' },
     { name: 'ZERO GRAVITY', desc: 'Weightless minimalism', img: 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=800&q=80' },
   ];
 
@@ -183,7 +183,7 @@ const EssentialStore = () => {
             playsInline 
             className="absolute inset-0 w-full h-full opacity-40 md:object-cover object-cover"
           >
-            <source src="/essential.mp4" type="video/mp4" />
+            <source src="/essential-store/essential.mp4" type="video/mp4" />
           </video>
         </div>
         
